@@ -32,11 +32,11 @@
     // Function to display confirmation messages and show the form
 function showConfirmationMessages() {
   const prompt1 = document.createElement('p');
-  prompt1.textContent = 'My vCard with all details just downloaded to your phone.';
+  prompt1.textContent = 'A digital version of my business card was just saved to your device.';
   prompt1.classList.add('confirmation-message');
 
   const prompt2 = document.createElement('p');
-  prompt2.textContent = 'Find the details in the "downloads" to easily save my information, in your contacts.';
+  prompt2.textContent = 'Simply navigate to it, open it, and save it in your contacts.';
   prompt2.classList.add('confirmation-message');
 
   const contentElement = document.getElementById('content');
